@@ -115,26 +115,6 @@ This project follows the modern medallion architecture pattern:
 - Delta Lake for ACID transactions and time travel
 - Parameterized notebooks for flexibility
 
-## 🚀 Setup Instructions
-1. Clone this repository
-2. Deploy Azure resources:
-   ```bash
-   terraform apply
-   ```
-3. Set up SQL Database and ADLS Gen2 containers (Bronze, Silver, Gold)
-4. Configure Azure Data Factory pipelines and linked services
-5. Import Databricks notebooks
-6. Set up Unity Catalog with `cars_catalog` catalog
-
-## ▶️ Running the Pipeline
-- For initial load: Run the pipeline with `initialLoad` parameter set to `true`
-- For incremental loads: Schedule the pipeline to run at your desired frequency
-
-## 📊 Monitoring
-- Pipeline runs can be monitored in Azure Data Factory monitoring section
-- Logs are stored in Log Analytics workspace
-- Databricks notebook execution logs provide transformation details
-
 ## 🔮 Future Enhancements
 - Add data quality validation rules
 - Implement data lineage tracking
