@@ -18,6 +18,7 @@ This project implements an end-to-end data engineering solution for car sales da
 
 ## 🔄 Pipeline Flow
 
+![Pipeline](https://github.com/nearlybrainless/car_data_pipeline/blob/main/Pipeline.png)
 ### 1. Data Ingestion (Bronze Layer)
 - 📥 Source data loaded from Git repository to Azure SQL Database
 - ⏱️ Incremental loading pattern using watermark technique:
