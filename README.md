@@ -4,7 +4,7 @@
 This project implements an end-to-end data engineering solution for car sales data using Azure cloud services. The pipeline utilizes a robust medallion architecture (Bronze, Silver, Gold) with dimensional modeling, enabling both initial and incremental data loads through a parameterized approach. The solution leverages Azure Data Factory for orchestration, Azure Databricks for transformation, and Unity Catalog for metadata management.
 
 ## 🏗️ Architecture
-![Architecture Diagram](https://github.com/yourusername/car-data-project/raw/main/images/architecture.png)
+![Architecture Diagram](https://github.com/nearlybrainless/car_data_pipeline/blob/main/Architecture%20Diagram.jpg)
 
 ## 🧩 Components
 - **Data Source**: 📁 Git repository containing car sales data
